@@ -1,3 +1,4 @@
+[sales_data.csv](https://github.com/user-attachments/files/19190031/sales_data.csv)
 # Sales-Data-Analysis[.gitignore.txt](https://github.com/user-attachments/files/19189598/default.gitignore.txt)
 
 This project analyzes sales data using SQL queries to answer some crucial company questions
