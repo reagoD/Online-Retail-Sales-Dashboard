@@ -5,7 +5,8 @@ This project analyzes sales data using SQL queries to answer some crucial compan
 # Data And SQL queries
 [sales_data.csv](https://github.com/user-attachments/files/19190031/sales_data.csv)
 
-[.gitignore](https://github.com/user-attachments/files/19189598/default.gitignore)
+
+
 
 # Sales Data Analysis Using SQL
 
