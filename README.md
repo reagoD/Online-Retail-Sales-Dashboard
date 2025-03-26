@@ -1,45 +1,39 @@
+# Online Retail Sales Dashboard
 
-# Sales-Data-Analysis
+This Power BI dashboard provides insights into online retail sales trends, including revenue patterns, top customers, and geographical performance.
 
-This project analyzes sales data using SQL queries to answer some crucial company questions
-# Data And SQL queries
-[sales_data.csv](https://github.com/user-attachments/files/19190031/sales_data.csv)
+## 📊 Project Overview
+- **Objective**: Analyze and visualize retail data to optimize revenue generation.
+- **Data Source**: Cleaned transactional data from an online store.
+- **Tools Used**: Power BI, Power Query, Excel.
+- **Key Metrics**:
+  - Total Revenue: **$8.27M**
+  - Total Customers: **401K**
+  - Top Countries: **Netherlands, UK, Germany**
 
+## 📈 Key Insights
+- **Sales peak towards Q4**, likely due to holiday shopping.
+- **Majority of revenue comes from a small percentage of customers**.
+- **Strong presence in Europe**, but limited reach in North America & Asia.
 
+## 🚀 Recommendations
+- Implement **seasonal sales strategies** for peak months.
+- Enhance **customer loyalty programs** to retain high-value customers.
+- Explore **market expansion** beyond Europe.
 
+## 📂 Project Files
+- `data/` - Contains cleaned dataset.
+- `reports/` - PDF report summarizing key findings.
+- `images/` - Screenshots of Power BI dashboard.
 
-# Sales Data Analysis Using SQL
+## 🛠️ How to Use
+1. Open the Power BI `.pbix` file to explore the visuals.
+2. Use the dataset for further analysis.
+3. Review the report for strategic insights.
 
-## Overview
-This project analyzes a sales dataset using SQL queries to extract key business insights, such as:
-- Minimum and maximum values in sales transactions
-- Aggregated revenue and sales performance using SUMIFS
-- Customer and transaction counts using COUNTIFS
-- Conditional analysis using IF/IFS statements
+## 📜 License
+This project is open-source under the [MIT License](LICENSE).
 
-## Dataset
-The dataset contains information on sales transactions, including:
-- Product categories
-- Customer types (Members, Normal)
-- Payment methods
-- Revenue and profit details
-- Customer ratings
+---
+*Developed by Reagan Odhiambo Otieno*
 
-## SQL Queries
-### 1. **MIN/MAX Analysis**
-- Find the minimum rating given in Yangon.
-- Identify the maximum revenue from "Electronic Accessories."
-
-### 2. **SUMIFS Analysis**
-- Calculate total revenue from "Health and Beauty" in Naypyitaw.
-
-### 3. **COUNTIFS Analysis**
-- Count transactions made by members in Yangon.
-
-### 4. **Conditional Analysis (IF/IFS)**
-- Create a new column to classify customers into "Loyal," "Potential," or "New."
-
-## Results & Insights
-- The highest revenue-generating category is **Electronics**.
-- **Members** tend to make larger purchases compared to normal customers.
-- The majority of payments are made using **Credit Cards**.
